@@ -8,7 +8,7 @@ The device tree and recipe are the ones prepared for upstream OpenWrt (the
 shared `mt7628an_rakwireless_rak636.dtsi` is common to the RAK7289CV2). Once a
 release carries them, this repo is no longer needed.
 
-Built from [openwrt-device-template](https://github.com/parkeze/openwrt-device-template).
+Built from [openwrt-device-template](https://github.com/Pulzr/openwrt-device-template).
 
 ## Using a release
 
@@ -26,7 +26,7 @@ So anything that fetches an official ImageBuilder and checks it against
 `sha256sums` only needs a different base URL:
 
 ```
-https://github.com/parkeze/openwrt-rak7268cv2/releases/download/25.12.6-1/
+https://github.com/Pulzr/openwrt-rak7268cv2/releases/download/25.12.6-1/
 ```
 
 The ImageBuilder is the release's own tree with these devices added. Its
